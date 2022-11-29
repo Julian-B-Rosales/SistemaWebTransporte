@@ -1,6 +1,7 @@
 ﻿using SistemaWebTransporte.Validations;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace SistemaWebTransporte.Models
         public string Marca { get; set; }
         [Required]
         [CheckValidYear]
+        [DisplayName("Año")]
         public int Anio { get; set; }
         [Required]
         public string Color { get; set; }
