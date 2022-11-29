@@ -7,13 +7,13 @@ namespace SistemaWebTransporte.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class crearBase : IMigrationMetadata
+    public sealed partial class CreacionDB : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(crearBase));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreacionDB));
         
         string IMigrationMetadata.Id
         {
-            get { return "202211292033016_crearBase"; }
+            get { return "202211292046350_CreacionDB"; }
         }
         
         string IMigrationMetadata.Source

@@ -107,9 +107,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202211292033016_crearBase.cs" />
-    <Compile Include="Migrations\202211292033016_crearBase.designer.cs">
-      <DependentUpon>202211292033016_crearBase.cs</DependentUpon>
+    <Compile Include="Migrations\202211292046350_CreacionDB.cs" />
+    <Compile Include="Migrations\202211292046350_CreacionDB.designer.cs">
+      <DependentUpon>202211292046350_CreacionDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Auto.cs" />
@@ -133,6 +133,8 @@
     </None>
     <Content Include="Views\Auto\Index.cshtml" />
     <Content Include="Views\Auto\Crear.cshtml" />
+    <Content Include="Views\Auto\Details.cshtml" />
+    <Content Include="Views\Auto\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -144,8 +146,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202211292033016_crearBase.resx">
-      <DependentUpon>202211292033016_crearBase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202211292046350_CreacionDB.resx">
+      <DependentUpon>202211292046350_CreacionDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

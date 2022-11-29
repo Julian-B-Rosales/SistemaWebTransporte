@@ -18,16 +18,15 @@
 
     <div id="conteinernav">
         <div id="nav">
-            @if (IsSectionDefined("SideBar"))
+            @if (IsSectionDefined("Nav"))
             {
-                @RenderSection("SideBar")
+                @RenderSection("Nav")
             }
-            else
+            @*else
             {
                 <h2>Nav</h2>
-            }
+            }*@
         </div>
-
 
         <div id="conteiner2">
             <div id="article">
